@@ -3,7 +3,7 @@
 
 // A "Closure" has access to variables in 3 separate scopes:
 // 1. Variables in its own scope
-// 2. Variables in the scope of the out function
+// 2. Variables in the scope of the outer function
 // 3. Variables in the global scope
 
 // The "Closure" also has access to:
