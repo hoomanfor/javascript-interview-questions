@@ -3,9 +3,9 @@
 // This is referred to as using "strict mode"
 "use strict";
 
-// QUESTION:
-// What does using "strict mode" do to your code?
-// What are the benefits of using "strict mode"?
+// QUESTIONS:
+// * What does using "strict mode" do to your code?
+// * What are the benefits of using "strict mode"?
 
 // ANSWER:
 // The main purpose of the "use strict" option at the beginning of a file ...

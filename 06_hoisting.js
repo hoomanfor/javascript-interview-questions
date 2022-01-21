@@ -1,4 +1,5 @@
-// Task: Describe what variable and function "hoisting" is and how it works.
+// TASK:
+// Describe what variable and function "hoisting" is and how it works.
 
 // In JavaScript; variables and functions are all "hoisted" to the top of the scope in which they are declared.
 // The scope is usually either the "global scope" or a "function scope".
@@ -39,7 +40,7 @@ console.log(getSum(2, 2)); // logs 4
 function getSum(num1, num2) {
   return num1 + num2;
 }
-// One important different between a "Function Expression" and a "Function Declaration" is ...
+// One important difference between a "Function Expression" and a "Function Declaration" is ...
 // ... that they are "hoisted" differently.
 // For a "Function Declaration", the whole function including it's definition is "hoisted" ...
 // .. to the top of the file.
@@ -78,7 +79,7 @@ var globalVar = "global";
 // * an "if/else statement"
 // * a "while loop"
 
-// When we declare a "const" or "let" variable within a "block scope" that variable declaration while only be "hoisted" ...
+// When we declare a "const" or "let" variable within a "block scope" that variable declaration will only be "hoisted" ...
 // ... to the top of that block that it is in.
 // It will not be "hoisted" to the top of the parent function, or to the top of the global scope.
 // Please see example below:

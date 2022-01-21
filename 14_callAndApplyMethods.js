@@ -52,7 +52,8 @@ car1.getCarDescription.call(car2, 40000, 2022, "blue");
 // That being said; there is ONE major difference:
 // When we use the "apply()" method we pass all the parameters for the function as an "Array" ...
 // ... instead of individually; like we did for the "call()" method.
-// For Example:
+
+// FOR EXAMPLE:
 const car3 = {
   brand: "Ford",
 };

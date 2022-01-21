@@ -11,7 +11,9 @@
 <body>
   <script>
     // The following function is adding 5 buttons to a web page and alerting a message when each button is clicked.
-    // Question: What will be alerted to the screen when Button 5 is clicked? Also; why is this certain piece of data alerted?
+
+    // QUESTION: 
+    // What will be alerted to the screen when Button 5 is clicked? Also; why is this certain piece of data alerted?
     function createButtons() {
       for (var i = 1; i <= 5; i++) {
         const body = document.getElementsByTagName("BODY")[0];
@@ -24,12 +26,16 @@
       }
     }
 
-    // Answer: Clicking Button 5 or any of the other buttons results in an alert that reads "This is button 6."
+    // ANSWER: 
+    // Clicking Button 5 or any of the other buttons results in an alert that reads "This is button 6."
     // The alert reads "This is button 6" because the "for loop" has already ran all the way through.
     // As a result; the variable "i" is now equal to the value of 6.
 
-    // Question: Why is "i" the value of 6 after the "for loop" has finished?
-    // Answer: Let's pretend that I am on the 5th iteration of the "for loop".
+    // QUESTION: 
+    // Why is "i" the value of 6 after the "for loop" has finished?
+
+    // ANSWER: 
+    // Let's pretend that I am on the 5th iteration of the "for loop".
     // At the 5th iteration of the "for loop", "i" is equal to 5.
     // Once iteration 5 completes, we increment "i" by 1 because of "i++".
     // As a result; "i" is now equal to 6.
@@ -38,7 +44,8 @@
     // By the time that I click on any of the 5 buttons, "i" always equals 6. 
     // ... and that is why I am always alerted "This is button 6" when clicking any of the 5 buttons. 
 
-    // Task: Implement a way to fix the bug found in the aforementioned "createButtons" function.
+    // TASK: 
+    // Implement a way to fix the bug found in the aforementioned "createButtons" function.
     function createButtonsSolution1() {
       for (var i = 1; i <= 5; i++) {
         const body = document.getElementsByTagName("BODY")[0];
@@ -63,7 +70,8 @@
 
     // createButtonsSolution1();
 
-    // Task: Implement a way to fix the bug found in the aforementioned "createButtons" function.
+    // TASK: 
+    // Implement a way to fix the bug found in the aforementioned "createButtons" function.
     function createButtonsSolution2() {
       for (var i = 1; i <= 5; i++) {
         const body = document.getElementsByTagName("BODY")[0];
@@ -82,7 +90,8 @@
 
     // createButtonsSolution2();
 
-    // Task: Implement a way to fix the bug found in the aforementioned "createButtons" function.
+    // TASK: 
+    // Implement a way to fix the bug found in the aforementioned "createButtons" function.
     function createButtonsSolution3() {
       // Using the "let" keyword when declaring "i" solves this problem because it is block-scoped. 
       // Alternatively; the "var" keyword is function-scoped. 

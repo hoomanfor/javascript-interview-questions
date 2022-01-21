@@ -1,5 +1,8 @@
-// Question: What is a "Closure"?
-// Answer: A "Closure" is an inner function that has access to the "scope" of an enclosing function.
+// QUESTION:
+// What is a "Closure"?
+
+// ANSWER:
+// A "Closure" is an inner function that has access to the "scope" of an enclosing function.
 
 // A "Closure" has access to variables in 3 separate scopes:
 // 1. Variables in its own scope
@@ -10,7 +13,8 @@
 // 1. Its own parameters
 // 2. Parameters of outer function(s)
 
-// Task: Code an example "Closure" and ensure that it functions properly.
+// TASK:
+// Code an example "Closure" and ensure that it functions properly.
 const globalVariable = "global var";
 
 function outterFunc(param1) {

@@ -57,7 +57,7 @@ console.log(list3); // logs [10, 20, 30]
 console.log(list4); // logs [1, 2, 3, 4, 5, 6, 7, 8]
 
 // Changing the value of a variable like setting "list3" equal to a new Array, [10, 20, 30] ...
-// ... will never changes the underlying Object.
+// ... will never change the underlying Object.
 // It simply points the variable (i.e. "list3") to a new Object/Array/String or whatever you point it at.
 // However, changing a property on an Object or an Array does change the underlying Object or Array.
 // As a result; any variables referencing that underlying Object or Array will reflect the change.
@@ -75,14 +75,15 @@ list5.push(6, 7, 8);
 
 console.log(list6); // logs [1, 2, 3, 4, 5, 6, 7, 8]
 
-// SOLUTION:
-// To solve this question, we must make a copy of "list5" and assign it to "list6".
+// ANSWER:
+// To answer this question, we must make a copy of "list5" and assign it to "list6".
 // That way we'll have two Arrays of the same value but they are completely separate.
 // As a result; updating one will NOT affect the other.
 // I will demonstrate this "make a copy" technique in the following example.
 // We can use a couple of different Array methods to create a copy:
-const list7 = [1, 2, 3, 4, 5];
+
 // OPTION 1: The Array "slice()" method with no parameters passed in.
+const list7 = [1, 2, 3, 4, 5];
 // Using this method like this will copy all of the elements in "list7" and ...
 // ... return them to us in a new Array, which we store as "list8".
 const list8 = list7.slice();

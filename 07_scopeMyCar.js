@@ -1,4 +1,5 @@
-// Question: Take a look at the following code...
+// QUESTION:
+// Take a look at the following code...
 // What is logged to the console when the method "myCar.logColor()" is ran?
 var myCar = {
   color: "Blue",

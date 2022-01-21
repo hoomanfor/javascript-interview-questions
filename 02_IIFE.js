@@ -1,8 +1,14 @@
-// Question: What is an IIFE and why are they used?
-// Answer: An IIFE (pronounced if...e) is an Immediately Invoked Function Expression.
+// QUESTION:
+// What is an IIFE and why are they used?
 
-// Question: What is a "Function Expression" ?
-// Answer: A "Function Expression" is a function that is executed right after it is created. 
+// ANSWER:
+// An IIFE (pronounced if...e) is an Immediately Invoked Function Expression.
+
+// QUESTION:
+// What is a "Function Expression"?
+
+// ANSWER:
+// A "Function Expression" is a function that is executed right after it is created.
 
 // Below; I have created a function named "doubleNumber"
 function doubleNumber(num) {
@@ -13,7 +19,8 @@ function doubleNumber(num) {
 doubleNumber(2);
 console.log(doubleNumber(2)); // logs 4
 
-// Question: What do I have to do to make the "doubleNumber" function into an IIFE (i.e. Immediately Invoked Function Expression)?
+// QUESTION:
+// What do I have to do to make the "doubleNumber" function into an IIFE (i.e. Immediately Invoked Function Expression)?
 // Wrap the "doubleNumberAsIIFE" function declaration in parenthesis.
 (function doubleNumberAsIIFE(num) {
   return num * 2;
@@ -21,5 +28,8 @@ console.log(doubleNumber(2)); // logs 4
   // Additionally; pass the argument into this second pair of parenthesis (i.e. 2).
 })(2); // returns 4
 
-// Question: Why would a developer ever need to use an IIFE?
-// Answer: The main reason to use an IIFE is to preserve the private scope within your function.  
+// QUESTION:
+// Why would a developer ever need to use an IIFE?
+
+// ANSWER:
+// The main reason to use an IIFE is to preserve the private scope within your function.

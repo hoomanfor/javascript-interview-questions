@@ -1,4 +1,5 @@
-// Question: What will be logged out into the console when the "logNumber" function is ran?
+// QUESTION:
+// What will be logged out into the console when the "logNumber" function is ran?
 var num = 50;
 
 function logNumber() {
